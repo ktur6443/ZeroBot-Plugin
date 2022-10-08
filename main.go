@@ -87,7 +87,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"        // 搜索GitHub仓库
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic"    // 猜歌
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hs"            // 炉石
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hyaku"         // 百人一首
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hyaku"         // 百人一首
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/image_finder"  // 关键字搜图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/inject"        // 注入指令
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/jandan"        // 煎蛋网无聊图
@@ -218,7 +218,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	// sus = append(sus, 12345678)
+	 sus = append(sus, 1972006422)
 	// sus = append(sus, 87654321)
 
 	if *runcfg != "" {
